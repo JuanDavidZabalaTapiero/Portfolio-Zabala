@@ -22,4 +22,17 @@ document.addEventListener("DOMContentLoaded", () => {
       document.documentElement.style.setProperty("--color-tercero", "#2b2b2b");
     }
   });
+
+  // ACCORDEÓN
+  document.querySelectorAll(".div_accordion_head").forEach(function (header) {
+    header.addEventListener("click", function () {
+      var content = this.nextElementSibling;
+
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  });
 });
