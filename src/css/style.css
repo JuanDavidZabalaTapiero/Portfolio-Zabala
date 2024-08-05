@@ -144,6 +144,7 @@ body section.education {
   max-width: 1280px;
   padding: 0 20px;
   margin: 20px auto;
+  overflow-x: auto;
 }
 body section.education .div_cont_accordion {
   margin-top: 25px;
@@ -162,6 +163,7 @@ body section.education .div_cont_accordion .div_accordion_item .div_accordion_he
   text-align: center;
   padding: 10px 0;
   border-radius: 10px;
+  overflow-x: auto;
 }
 body section.education .div_cont_accordion .div_accordion_item .div_accordion_head img {
   height: 50px;
@@ -177,6 +179,7 @@ body section.education .div_cont_accordion .div_accordion_item .div_accordion_co
   display: none;
   padding: 10px;
   border: 3px solid var(--color-tercero);
+  overflow-x: auto;
 }
 body section.education .div_cont_accordion .div_accordion_item .div_accordion_content .div_flex {
   display: flex;
@@ -218,6 +221,7 @@ body footer#main_footer {
   justify-content: center;
   background: var(--color-tercero);
   padding: 50px 0;
+  overflow-x: auto;
 }
 body footer#main_footer p {
   color: var(--color-secundario);
