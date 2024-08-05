@@ -26,6 +26,7 @@ header nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  overflow-x: auto;
 }
 header nav a img {
   width: 25px;
@@ -37,6 +38,10 @@ header nav a img:hover {
 header nav i {
   color: var(--color-secundario);
   cursor: pointer;
+  transition: 0.4s;
+}
+header nav i:hover {
+  font-size: 20px;
 }
 
 body {
