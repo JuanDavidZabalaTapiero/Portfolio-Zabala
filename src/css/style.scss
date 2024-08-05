@@ -49,6 +49,16 @@ header {
       }
     }
 
+    div {
+      a {
+        margin-right: 20px;
+      }
+
+      a:last-of-type {
+        margin: 0;
+      }
+    }
+
     i {
       color: var(--color-secundario);
       cursor: pointer;

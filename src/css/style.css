@@ -39,6 +39,12 @@ header nav a img {
 header nav a img:hover {
   width: 30px;
 }
+header nav div a {
+  margin-right: 20px;
+}
+header nav div a:last-of-type {
+  margin: 0;
+}
 header nav i {
   color: var(--color-secundario);
   cursor: pointer;
